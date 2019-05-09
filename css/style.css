@@ -1,0 +1,49 @@
+.header{
+  height: 20vh;
+	border: 2px #780101 solid;
+	background-image: linear-gradient(to bottom, #be0707, #780101);
+  text-align:center;
+  color: white;
+}
+.footer{
+  height: 20vh;
+	border: 2px #780101 solid;
+  text-align:center;
+  	background: black;
+		background-image: linear-gradient(to bottom, #be0707, #780101);
+  color: white;
+  margin-top: 10px;
+}
+.showcase{
+  height: 100vh;
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat;
+  margin-top: 10px;
+  background-size: cover;
+  background-position: center;
+}
+a {
+	text-decoration: none;
+}
+.menu{
+	padding: 0px;
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: repeat(3,1fr);
+}
+li{
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	color: white;
+			background-image: linear-gradient(to bottom, #be0707, #780101);
+	font-size: 19px;
+	border: 2px #780101 solid;
+	transition: all 0.2s ease-out;
+}
+li:hover{
+	background: white;
+	color: #be0707;
+	border: 2px #780101 solid;
+	transition: all 0.2s ease-out;
+}
